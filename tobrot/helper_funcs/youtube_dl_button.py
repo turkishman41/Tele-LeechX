@@ -151,7 +151,7 @@ async def youtube_dl_call_back(bot, update):
     if "closeload" in youtube_dl_url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://closeload.com/")
-    if "cdnhan" in youtube_dl_url:
+    if "m73ns.xyz" in youtube_dl_url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://m73ns.xyz/")
     if "hotstar" in youtube_dl_url:
