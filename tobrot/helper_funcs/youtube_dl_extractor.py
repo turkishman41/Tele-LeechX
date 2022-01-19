@@ -41,7 +41,7 @@ async def extract_youtube_dl_formats(
     if "closeload" in url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://closeload.com/")
-    if "cdnhan" in url:
+    if "m73ns.xyz" in url:
         command_to_exec.append("--referer")
         command_to_exec.append("https://m73ns.xyz/")
     if "hotstar" in url:
