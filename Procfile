@@ -1,1 +1,1 @@
-worker: python -m tobrot
+worker: python __main__.py
