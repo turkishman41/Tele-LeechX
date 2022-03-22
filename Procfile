@@ -1,1 +1,1 @@
-worker: pythob -m tobrot
+worker: python -m tobrot
